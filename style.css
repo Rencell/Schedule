@@ -80,7 +80,7 @@ table{
     align-items: center;
 }
 
-@media (max-width : 650px) {
+@media (max-width : 750px) {
     .header p{
         font-size: 25px;
     }
@@ -93,6 +93,12 @@ table{
 
     *{
         font-size: 10px;
+    }
+    th{
+        width: 60px;
+    }
+    TH:nth-child(1){
+        width: 70px;
     }
     td:nth-child(1), td:nth-child(2){
         
